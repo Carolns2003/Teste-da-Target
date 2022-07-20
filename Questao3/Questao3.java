@@ -35,6 +35,6 @@ class Main {
 
         for (int x=0; x < dados.length; x++) {
                     
-            if(dados[x].valor < media){
+            if(dados[x].valor > media){
                 d4 = d4 + 1;
             }
